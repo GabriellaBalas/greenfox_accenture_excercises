@@ -8,7 +8,7 @@ int evens = 0;
 
 void excercise1(int numbers[], int size) {
     for (int a=0; a<size; a++) {
-        if (numbers[a]%2 == 1) {
+        if (numbers[a]%2 == 1 || numbers[a]%2 == -1) {
             numerator+=numbers[a];
             denominator++;
         }
